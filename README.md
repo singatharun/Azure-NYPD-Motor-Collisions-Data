@@ -5,11 +5,13 @@ Initially, Data is downloaded from New York Open Data Website: https://opendata.
 
 Step 1:
 Using SQL Server Management Studio data is upload from local computer to Azure SQL database which was already created in azure. 
+
 Step 2:
 Data pipeline is created using Azure Data Factory to copy data from Azure SQL database to Azure synapse analytics. Here, Azure Data Lake storage Gen2 is used as an linked service storage. 
 
 Step 3:
 After successfuly completion of data copying from Azure sql database to Azure synapse analytics, Power Bi and synapse analytics are linked through azure synapse analytics connector in power Bi.
+
 Step 4:
 Visualizations are data made using the dataset that contains more than 1.6 Millions rows. 
 
